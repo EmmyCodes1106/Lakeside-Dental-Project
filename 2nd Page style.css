@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+}
+.content {
+  padding-left: 160px;
+  padding-right: 160px;
+  background-color: #b7b1b133;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-weight: bold;
+  color: b7b1b133;
+}
+h2 {
+  font-weight: 100;
+  color: b7b1b133;
+}
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: 300;
+  color: b7b1b133;
+}
