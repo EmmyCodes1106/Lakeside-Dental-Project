@@ -109,9 +109,12 @@
   padding-left: 390px;
   padding-top: 50px;
 }
-.about{
+.about_1 {
   text-align: center;
   font-size: 70px;
   border-radius: 7px;
   background-color: green;
+}
+.services {
+  background-color: #daeffd;
 }
