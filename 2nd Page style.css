@@ -21,10 +21,12 @@ h3 {
 h2 {
   font-weight: 100;
   color: black;
+  padding-top: 30px;
 }
 p {
   margin-top: 16px;
   margin-bottom: 16px;
   font-weight: 300;
   color: black;
+  padding-bottom: 20px;
 }
