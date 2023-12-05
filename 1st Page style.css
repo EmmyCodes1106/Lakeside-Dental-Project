@@ -116,7 +116,16 @@
   background-color: green;
 }
 .services {
-  background-color: #daeffd;
+  background-color: #d2dae0;
+}
+.main {
+  columns: 4 auto;
+  font-size: 18px;
+  width: 100%;
+}
+.main :hover {
+  text-decoration: underline;
+  color: #52c4d3;
 }
 .services .head {
   padding-top: 5px;
@@ -127,11 +136,105 @@
 }
 .cosmetic ul {
   padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .cosmetic h3 {
   padding-left: 20px;
+  color: #52c4d3;
 }
 .services a {
   text-decoration: underline;
-  color: black;
+  color: #3cb6c6;
+}
+.crown ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.crown h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.dental h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+  padding-top: 5px;
+}
+.dental ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.denture h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.denture ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.emergency h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.emergency ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.endo h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.endo ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.implant h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.implant ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.invisalign h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.invisalign ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.oral_h h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.oral_h ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.oral_s h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.oral_s ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.teeth h3 {
+  padding-left: 20px;
+  color: #52c4d3;
+}
+.teeth ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
