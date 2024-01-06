@@ -1,10 +1,21 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px;
+}
 .links {
   display: flex;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
+  align-items: center;
 }
 .links :nth-child(1) {
   padding-right: 3px;
@@ -22,23 +33,55 @@
   padding-left: 3px;
   padding-top: 5px;
 }
-.links :nth-child(4) {
-  padding-top: 5px;
-  padding-left: 600px;
-}
+
 .bg-wrapper {
   background-image: url(./Assets/hero_qqjtptjf576m7r80tm4qk.webp);
   height: 1050px;
   width: 100%;
 }
 .logo {
-  padding-left: 120px;
-  padding-top: 3px;
+  min-height: 80px;
+
+  display: flex;
+  align-items: center;
 }
-.links :hover {
+
+/* handle link over states  */
+.links > div > a {
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 600;
+  transition: all 0.7s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  transition: all 0.7s;
 }
+.links > div > a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 18.5px;
+  transition: all 0.7s;
+}
+
+.location_wrap {
+  margin-left: 100px;
+  display: flex;
+}
+
+.links .locate {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.links .locate a {
+  color: rgb(6, 6, 83);
+  transition: unset;
+}
+
+.links .locate a:hover {
+  transition: unset;
+}
+
 .bg-wrapper .welcome h1 {
   text-align: center;
   font-weight: 800;
