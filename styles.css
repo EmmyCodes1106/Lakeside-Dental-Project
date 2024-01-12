@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: rgba(242, 0, 0, 0.124);
 }
 .welcome {
   color: red;
@@ -15,8 +16,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 64px;
-  /* background-color: rgba(0, 0, 0, 0.402); */
-  background-color: white;
+  /* background-color: rgba(0, 0, 0, 0.313); */
+  background-color: rgba(255, 255, 255, 0.583);
   position: fixed;
   z-index: 5;
   top: 0;
@@ -114,23 +115,18 @@ nav {
   -webkit-text-stroke-width: 2px;
   -webkit-text-fill-color: gold;
 }
-.bg-wrapper .ready h2 {
-  text-align: center;
-  color: black;
-  font-weight: 800;
-  margin-bottom: 50px;
-  font-size: 200px;
+.ready {
+  margin: auto;
+  width: fit-content;
 }
-.bg-wrapper .ready h2 button {
-  width: 400px;
-  height: 100px;
+.bg-wrapper .ready h2 a {
   font-size: 40px;
-  border-radius: 13px;
   -webkit-text-stroke: 2px;
+  text-decoration: none;
+  background-color: rgba(255, 217, 0, 0.774);
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-color: brown;
   color: white;
-  background-color: rgb(50, 50, 191);
 }
 .bg-wrapper .schedule img {
   background-color: white;
@@ -139,13 +135,13 @@ nav {
 }
 .schedule h3 {
   font-weight: 800;
-  font-size: 60px;
+  font-size: 40px;
   color: white;
   text-align: center;
 }
 .schedule p {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   padding-right: 10px;
   padding-left: 100px;
@@ -163,7 +159,7 @@ nav {
 }
 .schedule_1 h3 {
   font-weight: 800;
-  font-size: 60px;
+  font-size: 40px;
   color: white;
   text-align: center;
   padding-left: 20px;
@@ -175,17 +171,15 @@ nav {
 }
 .schedule_1 p {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   padding-right: 10px;
   padding-left: 390px;
   padding-top: 50px;
 }
-.about_1 {
-  text-align: center;
-  font-size: 70px;
-  border-radius: 7px;
-  background-color: green;
+hr {
+  background-color: gold;
+  height: 15px;
 }
 .services {
   background-color: #d2dae0;
@@ -309,4 +303,33 @@ nav {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.about_1 {
+  width: fit-content;
+  font-size: 40px;
+  border-radius: 7px;
+  margin: auto;
+  background-color: green;
+}
+.author {
+  border: 4px dotted black;
+  background-color: rgb(171, 166, 166);
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.author img {
+  display: flex;
+}
+.author .footer_icon {
+  padding: 0;
+  display: flex;
+}
+.author .copy {
+  display: flex;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-weight: 200;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
 }
