@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: rgba(242, 0, 0, 0.124);
+background-color: #d2dae0;
 }
 .welcome {
   color: red;
@@ -16,7 +16,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 64px;
-  /* background-color: rgba(0, 0, 0, 0.313); */
   background-color: rgba(255, 255, 255, 0.583);
   position: fixed;
   z-index: 5;
@@ -127,6 +126,7 @@ nav {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: brown;
   color: white;
+  border: 5px dotted black;
 }
 .bg-wrapper .schedule img {
   background-color: white;
@@ -306,8 +306,9 @@ hr {
 }
 .about_1 {
   width: fit-content;
-  font-size: 40px;
+  font-size: 60px;
   border-radius: 7px;
+  border: 7px double gold;
   margin: auto;
   background-color: green;
 }
@@ -333,3 +334,4 @@ hr {
   align-items: center;
   justify-content: center;
 }
+.middle 
