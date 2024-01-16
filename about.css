@@ -1,0 +1,130 @@
+body {
+  box-sizing: border-box;
+  background-color: #d2dae0;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px;
+  background-color: rgba(255, 255, 255, 0.583);
+  position: fixed;
+  z-index: 5;
+  top: 0;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.links :nth-child(1) {
+  padding-right: 3px;
+  padding-left: 10px;
+  color: black;
+  text-decoration: none;
+  padding-top: 5px;
+}
+.links :nth-child(2) {
+  padding-right: 3px;
+  padding-top: 5px;
+  padding-left: 3px;
+}
+.links :nth-child(3) {
+  padding-left: 3px;
+  padding-top: 5px;
+}
+.logo {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+/* handle link over states  */
+.links > div > a {
+  text-decoration: underline;
+  font-weight: 600;
+  transition: all 0.5s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.links > div > a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 18.5px;
+  transition: all 0.5s;
+}
+
+.location_wrap {
+  margin-left: 100px;
+  display: flex;
+}
+
+.links .locate {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.links .locate a {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  transition: unset;
+}
+
+.links .locate a:hover {
+  transition: unset;
+}
+.content {
+  padding-left: 160px;
+  padding-right: 160px;
+  margin-top: 90px;
+  background-color: rgba(221, 145, 145, 0.854);
+  background-image: radial-gradient(
+      at 31% 55%,
+      hsla(222, 66%, 14%, 0.04) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 41% 12%, hsla(240, 79%, 49%, 0.24) 0px, transparent 50%);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+h3 {
+  font-weight: bold;
+  color: black;
+}
+h2 {
+  font-weight: 100;
+  color: black;
+  padding-top: 30px;
+}
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: 300;
+  color: black;
+  padding-bottom: 20px;
+}
+.author {
+  border: 4px dotted black;
+  background-color: rgb(171, 166, 166);
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.author img {
+  display: flex;
+}
+.author .footer_icon {
+  padding: 0;
+  display: flex;
+}
+.author .copy {
+  display: flex;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-weight: 200;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
